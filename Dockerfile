@@ -15,8 +15,9 @@ COPY . .
 EXPOSE 8000
 
 # Run the FastAPI application with Uvicorn
-CMD ["uvicorn", "backend:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
-
+#CMD ["uvicorn", "backend:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+# Run the FastAPI application with Uvicorn
+CMD ["uvicorn", "backend:app", "--reload"]
 
 # To run the Docker container:
 # docker build -t customer-support-chatbot .
