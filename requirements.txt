@@ -1,0 +1,29 @@
+# RAG Library
+langchain
+langchain_core
+langchain-openai
+langchain-community
+langchain-experimental
+langchain-google-genai
+
+# Pinecone VectorDB
+faiss-cpu
+
+# Data Loader & Transcript
+pypdf
+docx2txt
+youtube-transcript-api
+
+# FastAPI Backend
+fastapi[standard]
+uvicorn[standard]
+python-multipart
+
+# Frontend
+streamlit
+
+# Load Env
+python-dotenv
+
+# MySQL Database
+mysql-connector-python
